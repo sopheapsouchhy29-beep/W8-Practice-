@@ -36,7 +36,7 @@ class _AppState extends State<App> {
             ),
           ),
           child: _started
-              ? TemperatureScreen()
+              ? const TemperatureScreen()
               : WelcomeScreen(onStart: _start),
         ),
       ),
